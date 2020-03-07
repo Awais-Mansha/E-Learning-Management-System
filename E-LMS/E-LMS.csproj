@@ -78,9 +78,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\awais.JPG" />
     <Content Include="Images\front1.jpg" />
     <Content Include="Images\front2.jpg" />
     <Content Include="Images\front3.jpg" />
+    <Content Include="Images\front4.jpg" />
+    <Content Include="Images\front5.jpeg" />
+    <Content Include="Images\front6.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />

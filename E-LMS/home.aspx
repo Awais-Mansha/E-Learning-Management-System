@@ -41,6 +41,8 @@
                 <p>
                     A student information system (SIS), student management system, school administration software or student administration system is a management information system for education establishments to manage student data. Student information systems provide capabilities for registering students in courses; documenting grading, transcripts, results of student tests and other assessment scores; building student schedules; tracking student attendance; and managing many other student-related data needs in a school.
                 </p>
+                <br />
+                <img src="Images/front4.jpg" alt="Responsive image" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-4">
                 <h1 class="h1">Announcement Management</h1>
@@ -48,6 +50,8 @@
                 <p>
                     A student information system (SIS), student management system, school administration software or student administration system is a management information system for education establishments to manage student data. Student information systems provide capabilities for registering students in courses; documenting grading, transcripts, results of student tests and other assessment scores; building student schedules; tracking student attendance; and managing many other student-related data needs in a school.
                 </p>
+                <br />
+                <img src="Images/front5.jpeg" alt="Responsive image" class="img-fluid img-thumbnail">
             </div>
             <div class="col-md-4">
                 <h1 class="h1">Assignment Management</h1>
@@ -55,6 +59,9 @@
                 <p>
                     A student information system (SIS), student management system, school administration software or student administration system is a management information system for education establishments to manage student data. Student information systems provide capabilities for registering students in courses; documenting grading, transcripts, results of student tests and other assessment scores; building student schedules; tracking student attendance; and managing many other student-related data needs in a school.
                 </p>
+                <br />
+
+                <img src="Images/front6.jpg" alt="Responsive image" class="img-fluid img-thumbnail">
             </div>
         </div>
         <br />
