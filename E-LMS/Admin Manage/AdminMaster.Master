@@ -9,9 +9,6 @@
     </title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <meta name="keywords" content="HTML5 Admin Template" />
-    <meta name="description" content="JSOFT Admin - Responsive HTML5 Template" />
-    <meta name="author" content="JSOFT.net" />
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -43,149 +40,149 @@
     <script src="assets/vendor/modernizr/modernizr.js"></script>
 </head>
 <body>
+    <form id="form1" runat="server">
+        <section class="body">
 
-    <section class="body">
+            <!-- start: header -->
+            <header class="header">
+                <div class="logo-container">
 
-        <!-- start: header -->
-        <header class="header">
-            <div class="logo-container">
-
-                <h3 class="logo" style="color: slategray">E Learning Management System</h3>
-                <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
-                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
-                </div>
-            </div>
-
-            <!-- start: search & user box -->
-            <div class="header-right">
-
-                
-
-
-
-                <span class="separator"></span>
-
-                <div id="userbox" class="userbox">
-                    <a href="#" data-toggle="dropdown">
-                        <figure class="profile-picture">
-                            <img src="assets/images/!logged-user.jpg" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
-                        </figure>
-                        <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
-                            <span class="name">GM & MA</span>
-                            <span class="role">administrator</span>
-                        </div>
-
-                        <i class="fa custom-caret"></i>
-                    </a>
-
-                    <div class="dropdown-menu">
-                        <ul class="list-unstyled">
-                            <li class="divider"></li>
-                            <li>
-                                <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-user"></i>My Profile</a>
-                            </li>
-                            <li>
-                                <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a>
-                            </li>
-                            <li>
-                                <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-power-off"></i>Logout</a>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- end: search & user box -->
-        </header>
-        <!-- end: header -->
-
-        <div class="inner-wrapper">
-            <!-- start: sidebar -->
-            <aside id="sidebar-left" class="sidebar-left">
-
-                <div class="sidebar-header">
-                    <div class="sidebar-title" style="color: white">
-                        Navigation
-                    </div>
-                    <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                    <h3 class="logo" style="color: slategray">E Learning Management System</h3>
+                    <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
                         <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
                     </div>
                 </div>
 
-                <div class="nano">
-                    <div class="nano-content">
-                        <nav id="menu" class="nav-main" role="navigation">
-                            <ul class="nav nav-main">
-                                <hr class="separator" />
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-home" aria-hidden="true"></i>
-                                        <span>Dashboard</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-user-md" aria-hidden="true"></i>
-                                        <span>Teacher Manage</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                        <span>Student Manage</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-users" aria-hidden="true"></i>
-                                        <span>Users Manage</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-book" aria-hidden="true"></i>
-                                        <span>Courses Manage</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-flag-o" aria-hidden="true"></i>
-                                        <span>Reports</span>
-                                    </a>
-                                </li>
-                                <hr class="separator" />
+                <!-- start: search & user box -->
+                <div class="header-right">
 
-                                <hr class="separator" />
-                                <hr class="separator" />
+
+
+
+
+                    <span class="separator"></span>
+
+                    <div id="userbox" class="userbox">
+                        <a href="#" data-toggle="dropdown">
+                            <figure class="profile-picture">
+                                <img src="../Images/awais.JPG" alt="Joseph Doe" class="img-circle" data-lock-picture="assets/images/!logged-user.jpg" />
+                            </figure>
+                            <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
+                                <span class="name">GM & MA</span>
+                                <span class="role">administrator</span>
+                            </div>
+
+                            <i class="fa custom-caret"></i>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <ul class="list-unstyled">
+                                <li class="divider"></li>
                                 <li>
-                                    <a href="#">
-                                        <i class="fa fa-sign-out" aria-hidden="true"></i>
-                                        <span>Logout</span>
-                                    </a>
+                                    <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-user"></i>My Profile</a>
                                 </li>
+                                <li>
+                                    <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a>
+                                </li>
+                                <li>
+                                    <a role="menuitem" tabindex="-1" href="#"><i class="fa fa-power-off"></i>Logout</a>
+                                </li>
+
 
                             </ul>
-                        </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: search & user box -->
+            </header>
+            <!-- end: header -->
+
+            <div class="inner-wrapper">
+                <!-- start: sidebar -->
+                <aside id="sidebar-left" class="sidebar-left">
+
+                    <div class="sidebar-header">
+                        <div class="sidebar-title" style="color: white">
+                            Navigation
+                        </div>
+                        <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                            <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+                        </div>
+                    </div>
+
+                    <div class="nano">
+                        <div class="nano-content">
+                            <nav id="menu" class="nav-main" role="navigation">
+                                <ul class="nav nav-main">
+                                    <hr class="separator" />
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-home" aria-hidden="true"></i>
+                                            <span>Dashboard</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-user-md" aria-hidden="true"></i>
+                                            <span>Teacher Manage</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                            <span>Student Manage</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <span>Users Manage</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-book" aria-hidden="true"></i>
+                                            <span>Courses Manage</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-flag-o" aria-hidden="true"></i>
+                                            <span>Reports</span>
+                                        </a>
+                                    </li>
+                                    <hr class="separator" />
+
+                                    <hr class="separator" />
+                                    <hr class="separator" />
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                            <span>Logout</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </nav>
 
 
+
+                        </div>
 
                     </div>
 
-                </div>
-
-            </aside>
-            <!-- end: sidebar -->
-            <section role="main" class="content-body">
-                <asp:ContentPlaceHolder ID="ContentBody" runat="server">
-                </asp:ContentPlaceHolder>
-            </section>
-        </div>
+                </aside>
+                <!-- end: sidebar -->
+                <section role="main" class="content-body">
+                    <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+            </div>
 
 
-    </section>
+        </section>
 
-
+    </form>
 
 </body>
 <!-- Vendor -->
