@@ -11,7 +11,7 @@ namespace E_LMS.Admin_Manage
 {
 
 
-    public partial class adminmaster
+    public partial class AdminMaster1
     {
     }
 }

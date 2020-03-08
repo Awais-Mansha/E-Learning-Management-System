@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace E_LMS.Admin_Manage
 {
-    public partial class adminmaster : System.Web.UI.Page
+    public partial class AdminMaster1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
