@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="E_LMS.Admin_Manage.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!------ Include the above in your HEAD tag ---------->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <!------ Include the above in your HEAD tag ---------->
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <link href="adminmaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="throbber" style="display: none; min-height: 120px;"></div>
+        <div id="noty-holder"></div>
+        <div id="wrapper">
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top ml-auto" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand font-weight-bold" href="dashboard.aspx">
+                        <h3 style="color: azure">E Learning Management System</h3>
+                    </a>
+
+
+                </div>
+                <!-- Top Menu Items -->
+                <ul class="nav navbar-right top-nav">
+                    <li><a href="#" data-placement="bottom" data-toggle="tooltip" data-original-title="Stats"><i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin User <b class="fa fa-angle-down"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-fw fa-user"></i>Edit Profile</a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-cog"></i>Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-fw fa-power-off"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav side-nav">
+
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Dashboard</a>
+
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Student's</a>
+
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Teacher's</a>
+
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>User's</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Course's</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Lecture's</a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Reports</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw"></i>Log out</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+
+
+        </div>
+        <!-- /#wrapper -->
+        <footer class="footer navbar-fixed-bottom">
+
+
+            <div class="footer-copyright text-center py-3 bg-dark text-capitalize text-dark">
+                Developer Gulam Mohiuddin & Muhammad Awais
+
+            </div>
+        </footer>
+        <section class="content">
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer></footer>
+    </form>
+</body>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $(".side-nav .collapse").on("hide.bs.collapse", function () {
+            $(this).prev().find(".fa").eq(1).removeClass("fa-angle-right").addClass("fa-angle-down");
+        });
+        $('.side-nav .collapse').on("show.bs.collapse", function () {
+            $(this).prev().find(".fa").eq(1).removeClass("fa-angle-down").addClass("fa-angle-right");
+        });
+    })    </script>
+</html>
