@@ -35,7 +35,7 @@
     </div>
     <div class="jumbotron">
         <div class="row container">
-            <div class="col-md-4">
+            <div class="col-md-4 col-lg-4 col-sm-4">
                 <h1 class="h1">Student Management</h1>
                 <br />
                 <p>
@@ -44,7 +44,7 @@
                 <br />
                 <img src="Images/front4.jpg" alt="Responsive image" class="img-fluid img-thumbnail">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-lg-4 col-sm-4">
                 <h1 class="h1">Announcement Management</h1>
                 <br />
                 <p>
@@ -53,7 +53,7 @@
                 <br />
                 <img src="Images/front5.jpeg" alt="Responsive image" class="img-fluid img-thumbnail">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-lg-4 col-sm-4">
                 <h1 class="h1">Assignment Management</h1>
                 <br />
                 <p>
