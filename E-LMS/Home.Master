@@ -27,9 +27,8 @@
                         <div class="navbar-nav">
                             <a href="home.aspx" class="nav-item nav-link ">Home</a>
                             <a href="AboutUs.aspx" class="nav-item nav-link">About Us</a>
-                            <a href="studentORteacherLogin.aspx" class="nav-item nav-link">Login</a>
-                            <a href="studentORteacherSignUp.aspx" class="nav-item nav-link">Sign Up</a>
-                            <a href="admin.aspx" class="nav-item nav-link">Admin</a>
+                            <a href="Login.aspx" class="nav-item nav-link">Login</a>
+                            <a href="Register.aspx" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
                 </div>
