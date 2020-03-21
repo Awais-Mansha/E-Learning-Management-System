@@ -11,7 +11,7 @@
             <h1 class="text-dark">Welcome to E-LMS!</h1>
             <h3 class="text-info">Education for everyone!</h3>
         </div>
-        <div class="card mt-5" style="width: 400px; height: 400px; border: 1px solid; border-radius: 2px; box-shadow: black 10px 10px; margin: auto;">
+        <div class="card mt-5" style="width: 400px; height: 400px; box-shadow: 0px 0px 5px grey; margin: auto;">
             <div class="card-body">
                 <h2 class="card-header text-center text-capitalize" style="background: none;">Login</h2>
                 <div id="form1" class="mt-4">
@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="mt-5 ml-5 mr-5">
-                        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn btn-block btn-outline-primary" Font-Size="Larger" PostBackUrl="~/Admin Manage/AdminMaster.aspx"/>
+                        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn btn-block btn-outline-primary" Font-Size="Larger" PostBackUrl="~/Admin Module/AdminMaster.aspx"/>
                     </div>
                     <div class="mt-4" style="margin-top: 30px;">
                         <p class="text-sm-center">Don't have an account? <a href="Register.aspx">Register</a> here.</p>

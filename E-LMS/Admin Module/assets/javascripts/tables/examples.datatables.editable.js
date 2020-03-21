@@ -1,0 +1,7 @@
+
+
+(function( $ ) {
+
+	
+
+}).apply( this, [ jQuery ]);
